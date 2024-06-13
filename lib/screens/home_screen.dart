@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bank_app/constants/app_textstyle.dart';
 import 'package:flutter_bank_app/constants/color_constants.dart';
 import 'package:flutter_bank_app/data/card_data.dart';
+import 'package:flutter_bank_app/data/transaction_data.dart';
 import 'package:flutter_bank_app/widgets/my_card.dart';
+import 'package:flutter_bank_app/widgets/transaction_card.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -51,16 +53,31 @@ class HomeScreen extends StatelessWidget {
                       },
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 30,
                   ),
-                  Text(
+                  const Text(
                     "Recent transactions",
                     style: AppTextStyle.BODY_TEXT,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 15,
                   ),
+                  ListView.separated(
+                    itemCount: myTransactions.length,
+                    shrinkWrap: true,
+                    physics: const NeverScrollableScrollPhysics(),
+                    separatorBuilder: (context, index) {
+                      return const SizedBox(
+                        height: 10,
+                      );
+                    },
+                    itemBuilder: (context, index) {
+                      return TransactionCard(
+                        transaction: myTransactions[index],
+                      );
+                    },
+                  )
                 ]))));
   }
 }
