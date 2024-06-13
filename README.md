@@ -6,6 +6,7 @@ A new Flutter project.
 <table>
   <td><img src="https://github.com/Michellehlcn/flutter_bank_app/assets/83108919/71e5a8a3-6d4b-4839-8abb-a8f325fa4d08" width="300"/></td>
   <td><img src="https://github.com/Michellehlcn/flutter_bank_app/assets/83108919/058fee2d-909c-41af-9f36-5216d53645ee" width="300"/></td>
+  <td><img src="https://github.com/Michellehlcn/flutter_bank_app/assets/83108919/6bfacce5-3770-4249-b0e0-02468562118d" width="300"/></td>
 </table>
 
 ## Getting Started
