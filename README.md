@@ -2,6 +2,11 @@
 
 A new Flutter project.
 
+## Demo
+
+![Simulator Screen Shot - iphone 12 - 2024-06-13 at 12 22 30](https://github.com/Michellehlcn/flutter_bank_app/assets/83108919/71e5a8a3-6d4b-4839-8abb-a8f325fa4d08)
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
