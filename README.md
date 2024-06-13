@@ -3,9 +3,10 @@
 A new Flutter project.
 
 ## Demo
-
-<img src="https://github.com/Michellehlcn/flutter_bank_app/assets/83108919/71e5a8a3-6d4b-4839-8abb-a8f325fa4d08" width="300"/>
-
+<table>
+  <td><img src="https://github.com/Michellehlcn/flutter_bank_app/assets/83108919/71e5a8a3-6d4b-4839-8abb-a8f325fa4d08" width="300"/></td>
+  <td><img src="https://github.com/Michellehlcn/flutter_bank_app/assets/83108919/058fee2d-909c-41af-9f36-5216d53645ee" width="300"/></td>
+</table>
 
 ## Getting Started
 
