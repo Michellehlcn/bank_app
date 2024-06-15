@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bank_app/constants/color_constants.dart';
+import 'package:flutter_bank_app/screens/back4app.dart';
 import 'package:flutter_bank_app/screens/card_screen.dart';
 import 'package:flutter_bank_app/screens/home_screen.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -17,6 +18,7 @@ class _BaseScreenState extends State<BaseScreen> {
   static const List<Widget> _widgetOptions = [
     HomeScreen(),
     CardScreen(),
+    Back4app(),
   ];
   @override
   Widget build(BuildContext context) {

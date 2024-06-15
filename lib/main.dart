@@ -1,14 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bank_app/screens/base_screen.dart';
 
-import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
+import 'dart:ffi';
+import 'package:parse_server_sdk_flutter/parse_server_sdk_flutter.dart';
+
+// import 'package:firebase_core/firebase_core.dart';
+// import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+
+  // Conflicting version, requiring IOS> @12 xcode@v15
+  // await Firebase.initializeApp(
+  //   options: DefaultFirebaseOptions.currentPlatform,
+  // );
+
+  // Back4App 
+  const keyApplicationId = 'EzuhAREPHImkU4lHfiAGk6i4CGz36UZ4Fwf82f1u';
+  const keyClientKey = 'ZevkpkPSBaBsqbvZWZo4t1AosR206blBCn139G99';
+  const keyParseServerUrl ='https://parseapi.back4app.com';
+  // postgres://GnFDGnAmGU:ITGWcmgzi8h7YsrRyIN4oMO6@SharedPostgreSQL01A.back4app.com:5433/d172440e7e43456e9223430b8bde7297
+  await Parse().initialize(keyApplicationId, keyParseServerUrl, clientKey: keyClientKey, debug: true);
+
   runApp(const MyApp());
 }
 
@@ -23,7 +36,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'BankApp',
       theme: ThemeData(
         scaffoldBackgroundColor:  Colors.white,
         fontFamily: "Poppins",
