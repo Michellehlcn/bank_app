@@ -1,9 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2024-06-16T07:22:46.810Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.5.4" etag="3cd6clJWzKDCwf9uDeLD" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-16T09:12:44.067Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qBRbCIGDiBlkh21VuCei" version="24.5.4" type="github">
   <diagram name="Page-1" id="XB4Wmp5CigR_Ue6v3clg">
-    <mxGraphModel>
+    <mxGraphModel dx="817" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MqFKNGCpXAgFx6aCgspe-1" target="MqFKNGCpXAgFx6aCgspe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-1" value="Users" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MqFKNGCpXAgFx6aCgspe-2" target="MqFKNGCpXAgFx6aCgspe-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="220" />
+              <mxPoint x="320" y="289" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-2" value="API Call (QR)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="MqFKNGCpXAgFx6aCgspe-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="312.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MqFKNGCpXAgFx6aCgspe-6" target="MqFKNGCpXAgFx6aCgspe-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-6" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="272.5" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MqFKNGCpXAgFx6aCgspe-7" target="MqFKNGCpXAgFx6aCgspe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-7" value="Hacker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="370" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-8" value="API Call (QR)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="370" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MqFKNGCpXAgFx6aCgspe-8" target="MqFKNGCpXAgFx6aCgspe-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="316" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MqFKNGCpXAgFx6aCgspe-13" target="MqFKNGCpXAgFx6aCgspe-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-13" value="Amazon API Gateway&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MqFKNGCpXAgFx6aCgspe-15" target="MqFKNGCpXAgFx6aCgspe-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MqFKNGCpXAgFx6aCgspe-15" target="MqFKNGCpXAgFx6aCgspe-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-15" value="&lt;div&gt;AWS Lambda&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="293.75" width="70" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-18" value="Transactions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MqFKNGCpXAgFx6aCgspe-18" target="MqFKNGCpXAgFx6aCgspe-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="210" as="targetPoint" />
+            <mxPoint x="610" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-20" value="Confluent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="180" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MqFKNGCpXAgFx6aCgspe-24" target="MqFKNGCpXAgFx6aCgspe-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-24" value="Locations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-25" value="Flutter UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="395" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MqFKNGCpXAgFx6aCgspe-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="686" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-27" value="Flink" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MqFKNGCpXAgFx6aCgspe-28" value="Flagged" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="250" width="70" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
