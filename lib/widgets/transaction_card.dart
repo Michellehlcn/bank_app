@@ -62,12 +62,12 @@ class TransactionCard extends StatelessWidget {
                       children: [
                         transaction.changePercentageIndicator == "up"
                         ? Icon(
-                          FontAwesomeIcons.levelUpAlt,
+                          FontAwesomeIcons.turnUp,
                           size: 10,
                           color: Colors.green,
                         )
                         : Icon(
-                          FontAwesomeIcons.levelDownAlt,
+                          FontAwesomeIcons.turnDown,
                           size: 10,
                           color: Colors.red,
                         ),
