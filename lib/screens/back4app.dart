@@ -27,6 +27,11 @@ class _ContactsAppState extends State<Back4app> {
     //_loadContacts();
   }
 
+  Future<void> _loadContacts() async {
+    final queryBuilder = QueryBuider<ParseObject>(ParseObject('Contact'))
+    ..whereEqualTo('zipCode', )
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
